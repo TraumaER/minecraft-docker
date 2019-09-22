@@ -1,0 +1,9 @@
+change-template: '- $TITLE (#$NUMBER) -- @$AUTHOR'
+template: |
+  ## Changes
+  $CHANGES
+
+  ## Contributors
+  $CONTRIBUTORS
+  ---
+  Previous Tag: $PREVIOUS_TAG
